@@ -128,7 +128,7 @@ const AddItemForm = ({ onSubmit, onCancel }: AddItemFormProps) => {
         </Button>
         <Button 
           type="submit"
-          className="bg-indigo-600 hover:bg-indigo-700"
+          className="bg-roadmap-red hover:bg-roadmap-red/90 text-white"
         >
           Добавить
         </Button>

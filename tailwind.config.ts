@@ -53,6 +53,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Добавляем новые цвета
+        roadmap: {
+          red: "#bc4749",
+          beige: "#f2e8cf",
+          green: "#a7c957",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

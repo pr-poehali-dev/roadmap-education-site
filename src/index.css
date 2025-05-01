@@ -5,52 +5,45 @@
  
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 46 43% 88%;  /* #f2e8cf */
+    --foreground: 358 45% 28%; /* #bc4749 темнее для лучшей читаемости */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 358 45% 28%; /* #bc4749 темнее */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 358 45% 28%; /* #bc4749 темнее */
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 358 45% 28%; /* #bc4749 темнее */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 358 45% 51%; /* #bc4749 */
+    --primary-foreground: 46 43% 88%; /* #f2e8cf */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 81 42% 57%; /* #a7c957 */
+    --secondary-foreground: 358 45% 28%; /* #bc4749 темнее */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 46 33% 92%; /* светлее #f2e8cf */
+    --muted-foreground: 358 35% 40%; /* светлее #bc4749 */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 81 42% 57%; /* #a7c957 */
+    --accent-foreground: 358 45% 28%; /* #bc4749 темнее */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 358 45% 51%; /* #bc4749 */
+    --destructive-foreground: 46 43% 88%; /* #f2e8cf */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 81 32% 77%; /* светлее #a7c957 */
+    --input: 81 32% 77%; /* светлее #a7c957 */
+    --ring: 358 45% 51%; /* #bc4749 */
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 46 43% 88%; /* #f2e8cf */
+    --sidebar-foreground: 358 45% 28%; /* #bc4749 темнее */
+    --sidebar-primary: 358 45% 51%; /* #bc4749 */
+    --sidebar-primary-foreground: 46 43% 88%; /* #f2e8cf */
+    --sidebar-accent: 81 42% 57%; /* #a7c957 */
+    --sidebar-accent-foreground: 358 45% 28%; /* #bc4749 темнее */
+    --sidebar-border: 81 32% 77%; /* светлее #a7c957 */
+    --sidebar-ring: 358 45% 51%; /* #bc4749 */
   }
 
   .dark {

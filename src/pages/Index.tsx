@@ -53,12 +53,11 @@ const Index = () => {
     setItems(items.filter((item) => item.id !== id));
   };
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-indigo-600 text-white p-6">
+    <div className="min-h-screen bg-roadmap-beige/30">
+      <header className="bg-roadmap-red text-roadmap-beige p-6">
         <div className="container mx-auto">
           <h1 className="text-3xl font-bold">Моя дорожная карта обучения</h1>
-          <p className="mt-2 text-indigo-100">
+          <p className="mt-2 text-roadmap-beige/90">
             Организуйте свой образовательный путь и ресурсы в одном месте
           </p>
         </div>

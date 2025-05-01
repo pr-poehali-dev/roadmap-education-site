@@ -58,7 +58,7 @@ const RoadmapItem = ({
 
   if (isEditing) {
     return (
-      <Card className="p-6 bg-white rounded-lg shadow-md">
+      <Card className="p-6 bg-white rounded-lg shadow-md border-roadmap-green/30 border-2">
         <div className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Название</label>
