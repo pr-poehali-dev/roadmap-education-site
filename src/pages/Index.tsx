@@ -53,6 +53,7 @@ const Index = () => {
     setItems(items.filter((item) => item.id !== id));
   };
 
+  return (
     <div className="min-h-screen bg-roadmap-beige/30">
       <header className="bg-roadmap-red text-roadmap-beige p-6">
         <div className="container mx-auto">
@@ -70,14 +71,14 @@ const Index = () => {
           </h2>
           <Button 
             onClick={() => setShowAddForm(true)}
-            className="bg-indigo-600 hover:bg-indigo-700"
+            className="bg-roadmap-green hover:bg-roadmap-green/80 text-white"
           >
             Добавить пункт
           </Button>
         </div>
 
         {showAddForm && (
-          <div className="mb-8 bg-white p-6 rounded-lg shadow-md">
+          <div className="mb-8 bg-white p-6 rounded-lg shadow-md border border-roadmap-beige">
             <h3 className="text-xl font-medium mb-4">Добавить новый пункт</h3>
             <AddItemForm
               onSubmit={addItem}
